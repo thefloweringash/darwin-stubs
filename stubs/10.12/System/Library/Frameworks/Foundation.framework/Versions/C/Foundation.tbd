@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 1C4A9114-BD66-3548-B53F-29A98906306C', 'x86_64: A37CB4EC-0730-3DD6-9358-60491BF40EF2']
 platform: macosx
 install-name: '/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation'
@@ -272,7 +272,7 @@ exports:
     __NSXPCInterfaceMethodInfo, __NSZeroData, ___NSBundleTables, ___NSConcreteURLComponents,
     ___NSConcreteUUID, ___NSLocalizedString, ___NSObserver, ___NSOperationInternal,
     ___NSOperationQueueInternal, ___NSVariableWidthString]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: ['$ld$add$os10.5$_OBJC_CLASS_$_NSCachedURLResponse', '$ld$add$os10.5$_OBJC_CLASS_$_NSGZipDecoder',
     '$ld$add$os10.5$_OBJC_CLASS_$_NSHTTPCookie', '$ld$add$os10.5$_OBJC_CLASS_$_NSHTTPCookieStorage',
     '$ld$add$os10.5$_OBJC_CLASS_$_NSHTTPURLResponse', '$ld$add$os10.5$_OBJC_CLASS_$_NSHost',
@@ -481,7 +481,7 @@ exports:
     __NSCloudSharingDescriptor._numberOfInvitations, __NSCloudSharingDescriptor._operation,
     __NSCloudSharingDescriptor._publicShare, __NSCloudSharingDescriptor._sharedContentType,
     __NSConcreteDateInterval._duration, __NSConcreteDateInterval._startDate]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@CoreFoundation@/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation',
     '@libobjc@/lib/libobjc.A.dylib']
   symbols: ['$ld$add$os10.5$_NSHTTPCookieComment', '$ld$add$os10.5$_NSHTTPCookieCommentURL',

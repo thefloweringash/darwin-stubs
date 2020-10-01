@@ -1,13 +1,13 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 0525DD66-8FB9-3E11-8A5B-74FCEB610D2A', 'x86_64: C9B0E11A-362B-3C0D-8B2E-B06510BCE20A']
 platform: macosx
 install-name: '/System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface'
 current-version: 55079.50.4
 exports:
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   objc-ivars: [_AuthorizationSpecialEngineRef.mAuthPluginView, _AuthorizationSpecialEngineRef.mEngineRef]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@SecurityFoundation@/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation']
   symbols: ['$ld$add$os10.3$.objc_class_name_SFCertificateData', '$ld$add$os10.4$.objc_class_name_SFCertificateData',
     '$ld$add$os10.5$.objc_class_name_SFCertificateData', '$ld$add$os10.5$_OBJC_CLASS_$_SFCertificateData',

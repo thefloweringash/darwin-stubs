@@ -1,10 +1,10 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: A826B0C1-C75C-381A-9FD7-17D50BD7042C', 'x86_64: 40D2DA0C-85A9-3830-A0E5-BA4012F65693']
 platform: macosx
 install-name: '/System/Library/Frameworks/ICADevices.framework/Versions/A/ICADevices'
 exports:
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   objc-ivars: [_BaseObjectImp._gotMetadata, _BaseObjectImp._lockObject, _BaseObjectImp._metadata,
     _BaseObjectImp.m_ICAObject, _BaseObjectImp.m_ObjectDict, _BaseObjectImp.m_ObjectInfoSize,
     _BaseObjectImp.m_ObjectInformation, _BaseObjectImp.m_cleanUpCalled, _BaseObjectImp.m_parent,
@@ -39,7 +39,7 @@ exports:
     _TWAINDevice._usbSerialNumberString, _TWAINDevice._usbVendorID, _USBDevice._IOUSBDeviceIOServicePath,
     _USBDevice._locationID, _USBDevice._usbProductID, _USBDevice._usbSerialNumberString,
     _USBDevice._usbVendorID, __DirectoryObject.m_children]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@libobjc@/lib/libobjc.A.dylib']
   symbols: [_CanTerminate, _ClientDiedCallback, _DisconnectFWDevice, _DisconnectFWDeviceWithIORegPath,
     _DisconnectFWDeviceWithTwainDS, _DisconnectMassStorageDevice, _DisconnectUSBDevice,

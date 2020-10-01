@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 11C45C1C-C281-33BC-95AA-1EADAC0DFC31', 'x86_64: 7255917D-EFBB-3BE2-A8FD-DAD631BC0949']
 platform: macosx
 install-name: '/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices'
@@ -132,7 +132,7 @@ exports:
     '$ld$hide$os10.4$_kUTTypeVCard', '$ld$hide$os10.4$_kUTTypeVersionKey', '$ld$hide$os10.4$_kUTTypeVideo',
     '$ld$hide$os10.4$_kUTTypeVolume', '$ld$hide$os10.4$_kUTTypeWebArchive', '$ld$hide$os10.4$_kUTTypeXML',
     '$ld$hide$os10.4$_vAEBuildAppleEvent', '$ld$hide$os10.4$_vAEBuildDesc', '$ld$hide$os10.4$_vAEBuildParameters']
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@CFNetwork@/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork',
     '@CoreFoundation@/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation',
     '@CoreServices@/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE',

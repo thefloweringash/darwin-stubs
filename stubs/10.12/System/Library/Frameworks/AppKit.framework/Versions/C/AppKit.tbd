@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 31426FD5-B4EF-3DC5-90D5-95749CAD012B', 'x86_64: AE51ACB3-D501-3F91-B369-3D3711F24D0A']
 platform: macosx
 install-name: '/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit'
@@ -425,7 +425,7 @@ exports:
     ___NSInspectorBarView, ___NSLayoutRelationshipNode, ___NSSeparatorInspectorBarItem,
     ___NSTextInputContextAuxiliaryStorage, ___NSTextInputPopoverTouchBarItem, ___NSTextListTouchBarViewController,
     ___NSTexturedPopUpButtonCell]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: ['$ld$add$os10.5$_OBJC_CLASS_$_NSFileWrapper', '$ld$add$os10.5$_OBJC_CLASS_$_NSLayoutConstraint',
     '$ld$add$os10.5$_OBJC_METACLASS_$_NSFileWrapper', '$ld$add$os10.5$_OBJC_METACLASS_$_NSLayoutConstraint',
     '$ld$add$os10.6$_OBJC_CLASS_$_NSFileWrapper', '$ld$add$os10.6$_OBJC_CLASS_$_NSLayoutConstraint',
@@ -1392,7 +1392,7 @@ exports:
     ___NSAppKitThreadSpecificData.reserved1, ___NSAppKitThreadSpecificData.reserved2,
     ___NSAppKitThreadSpecificData.reserved3, ___NSAppKitThreadSpecificData.reserved4,
     ___NSAppKitThreadSpecificData.reserved5, ___NSEventDiscardInfo.mask, ___NSEventDiscardInfo.time]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@ApplicationServices@/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices',
     '@Foundation@/Library/Frameworks/Foundation.framework/Versions/C/Foundation',
     '@UIFoundation@/Library/Frameworks/UIFoundation.framework/Versions/A/UIFoundation']

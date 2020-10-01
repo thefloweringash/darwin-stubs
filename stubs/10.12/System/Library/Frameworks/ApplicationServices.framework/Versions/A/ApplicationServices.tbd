@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: F82932D5-D612-3A75-8217-EFFA6D22C5B0', 'x86_64: DA687F9A-7B2D-342B-8796-16E45344F853']
 platform: macosx
 install-name: '/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices'
@@ -126,7 +126,7 @@ exports:
     '$ld$add$os10.4$_kUTTypeVideo', '$ld$add$os10.4$_kUTTypeVolume', '$ld$add$os10.4$_kUTTypeWebArchive',
     '$ld$add$os10.4$_kUTTypeXML', '$ld$add$os10.4$_vAEBuildAppleEvent', '$ld$add$os10.4$_vAEBuildDesc',
     '$ld$add$os10.4$_vAEBuildParameters']
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@ApplicationServices@/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS',
     '@ApplicationServices@/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync',
     '@ApplicationServices@/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices',

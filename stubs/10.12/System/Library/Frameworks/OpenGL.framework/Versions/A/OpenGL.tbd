@@ -1,10 +1,10 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 7515264F-9918-31DB-ABCF-56426C78E45A', 'x86_64: 167C9883-A79E-3B7F-AFED-8CD6683B291D']
 platform: macosx
 install-name: '/System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL'
 exports:
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@OpenGL@/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib',
     '@OpenGL@/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib']
   symbols: [_CGLAreContextsShared, _CGLBackDispatch, _CGLChoosePixelFormat, _CGLClearDrawable,

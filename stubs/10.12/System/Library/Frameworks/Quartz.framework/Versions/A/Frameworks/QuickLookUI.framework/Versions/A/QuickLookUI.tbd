@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 7344A4D1-6D43-32F1-9C65-F6302C2D7B9E', 'x86_64: 3136C23E-399E-3296-928A-B18EC9FC423C']
 platform: macosx
 install-name: '/System/Library/Frameworks/Quartz.framework/Versions/A/Frameworks/QuickLookUI.framework/Versions/A/QuickLookUI'
@@ -42,7 +42,7 @@ exports:
     _QLSplineInspectorView, _QLSubThumbnailLayer, _QLSwipeAnimation, _QLThumbnailRequestReserved,
     _QLTooltipView, _QLTransitionCrossFadeView, _QLTransitionView, _QLWindowAnimation,
     _QLiPhotoExport, __QLKVOWaiter]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: [__Z11StrokeGuide7CGPoint, __Z14StrokeTickmark7CGPoint, __Z15DrawCoordinatesP6NSViewd6CGRect7CGPoint,
     __Z17PointCloseToPoint7CGPointS_d, __Z9FillGuide7CGPoint]
   objc-ivars: [_QLBubble._reserved, _QLControlCommon._canShowMenu, _QLControlCommon._controlIdentifier,
@@ -85,7 +85,7 @@ exports:
     _QLTintedImageRep._rescale, _QLTintedImageRep._tintColor, _QLTransformWindowEffect._finalTransform,
     _QLTransformWindowEffect._initialTransform, _QLUIHelperObject._port, _QLUIHelperObject._serverPort,
     _QLWarpingWindowEffect._pointBlock, _QLWarpingWindowEffect._setupBlock]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@QuickLook@/Library/Frameworks/QuickLook.framework/Versions/A/QuickLook']
   symbols: [_QLDisplayBundleDisplayStateCurrentPageKey, _QLDisplayBundleDisplayStateCurrentScrollKey,
     _QLDisplayBundleDisplayStateCurrentTimeKey, _QLDisplayBundleErrorDomain, _QLDisplayBundleErrorHideOpenButtonKey,

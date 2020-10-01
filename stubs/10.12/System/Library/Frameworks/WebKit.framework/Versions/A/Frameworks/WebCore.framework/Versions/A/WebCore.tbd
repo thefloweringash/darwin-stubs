@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: B68B05CD-7880-353F-94FB-AA4E7C1B20DA', 'x86_64: FE0B8503-5E89-3D55-BF48-1370FE81910A']
 platform: macosx
 install-name: '/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore'
@@ -86,7 +86,7 @@ exports:
     _WebTextIndicatorView, _WebTiledBackingLayer, _WebValidationPopover, _WebVideoContainerLayer,
     _WebVideoFullscreenHUDWindow, _WebVideoFullscreenHUDWindowController, _WebVideoFullscreenInterfaceMacObjC,
     _WebVideoFullscreenWindow, _WebVideoViewContainer]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: [__ZN7WebCore11globalPointERK7CGPointP8NSWindow, __ZN7WebCore11toUserSpaceERK6CGRectP8NSWindow,
     __ZN7WebCore15DatabaseTracker28deleteDatabasesModifiedSinceENSt3__16chrono10time_pointINS2_12system_clockENS2_8durationIxNS1_5ratioILl1ELl1000000EEEEEEE,
     __ZN7WebCore15PlatformCALayer11flipContextEP9CGContextd, __ZN7WebCore16HTMLMediaElement15clearMediaCacheERKN3WTF6StringENSt3__16chrono10time_pointINS6_12system_clockENS6_8durationIxNS5_5ratioILl1ELl1000000EEEEEEE,
@@ -164,7 +164,7 @@ exports:
     _WebPlaybackControlsManager._timing, _WebScriptObject._private, _WebScriptObjectPrivate.imp,
     _WebScriptObjectPrivate.isCreatedByDOMWrapper, _WebScriptObjectPrivate.originRootObject,
     _WebScriptObjectPrivate.rootObject]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   allowable-clients: [WebCoreTestSupport, WebKit2, WebKitLegacy]
   re-exports: ['@libobjc@/lib/libobjc.A.dylib']
   symbols: [_WebCoreHas3DRendering, __NPN_Construct, __NPN_CreateObject, __NPN_DeallocateObject,

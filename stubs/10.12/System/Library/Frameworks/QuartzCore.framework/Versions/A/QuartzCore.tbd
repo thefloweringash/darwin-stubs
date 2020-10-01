@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 6CE31444-403F-3C5D-8262-9EF78A0E86E7', 'x86_64: A45AFBC4-87D4-3533-A0AC-1D6629C77984']
 platform: macosx
 install-name: '/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore'
@@ -13,11 +13,11 @@ exports:
     _CASlotProxy, _CAStateControllerAnimation, _CAStateControllerLayer, _CAStateControllerTransition,
     _CAStateControllerUndo, _CASublayerEnumerator, _LKCGColorCodingProxy, _LKCGImageCodingProxy,
     _LKNSArrayCodingProxy, _LKNSDictionaryCodingProxy, _LKNSValueCodingProxy]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   objc-ivars: [_CAStateAddElement._beforeObject, _CAStateAddElement._keyPath, _CAStateAddElement._object,
     _CAStateElement._source, _CAStateElement._target, _CAStateRemoveElement._keyPath,
     _CAStateRemoveElement._object, _CAValueFunction._impl, _CAValueFunction._string]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@CoreImage@/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage',
     '@CoreVideo@/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo', '@libobjc@/lib/libobjc.A.dylib']
   symbols: [_CAAtomGetString, _CABackingStoreCollect, _CABackingStoreCollectBlocking,

@@ -1,11 +1,11 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: 1747E5C6-2CCA-335B-860F-D1321071184F', 'x86_64: 2F390EAD-07BB-3788-9E73-13104C2E04CD']
 platform: macosx
 install-name: '/System/Library/Frameworks/AVFoundation.framework/Versions/A/AVFoundation'
 current-version: 2
 exports:
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   objc-ivars: [_AVAssetCollectionFactory._collectionsByURLString, _AVAssetCollectionFactory._collectionsQ,
     _AVAssetCollectionInspector._figCollection, _AVAssetCollectionInternal.inspectorLoader,
     _AVAssetCollectionInternal.inspectorQ, _AVAssetCollectionInternal.rootURL, _AVAssetCollectionInternal.weakReference,
@@ -578,7 +578,7 @@ exports:
     _AVWaitForNotificationOrDeallocationOperation._started, _AVWaitForNotificationOrDeallocationOperation._weakReferenceToMonitoredObject,
     _AVWaitForNotificationOrDeallocationOperation._weakReferenceToSelf, _MediaIOGraphNodeDescription._graph,
     _MediaIOGraphNodeDescription._graphNode, _MediaIOGraphNodeList._count, _MediaIOGraphNodeList._nodes]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@AVFoundation@/Library/Frameworks/AVFoundation.framework/Versions/A/Frameworks/AVFAudio.framework/Versions/A/AVFAudio']
   symbols: [_AVAppleMakerNote_AssetIdentifier, _AVAppleMakerNote_ImageGroupIdentifier,
     _AVAppleMakerNote_PhotosOriginatingSignature, _AVApplicationAuthorizationChallengeProviderFairPlay,

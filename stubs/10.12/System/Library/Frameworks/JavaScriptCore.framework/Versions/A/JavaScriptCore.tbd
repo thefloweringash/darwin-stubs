@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: B075075A-3AB5-37D1-9405-EA60C9562964', 'x86_64: 9557271A-1838-38DD-93E3-D8A9ECDE3B6B']
 platform: macosx
 install-name: '/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore'
@@ -67,7 +67,7 @@ exports:
     __ZThn8_N9Inspector28InspectorScriptProfilerAgent13startTrackingERN3WTF6StringEPKb,
     __ZThn8_N9Inspector28InspectorScriptProfilerAgentD0Ev, __ZThn8_N9Inspector28InspectorScriptProfilerAgentD1Ev]
   objc-classes: [_JSJavaScriptCoreFinder, _JSWTFMainThreadCaller, _WTFLanguageChangeObserver]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: [_JSPropertyDescriptorConfigurableKey, _JSPropertyDescriptorEnumerableKey,
     _JSPropertyDescriptorGetKey, _JSPropertyDescriptorSetKey, _JSPropertyDescriptorValueKey,
     _JSPropertyDescriptorWritableKey, __ZN3JSC16clearArrayMemsetEPNS_12WriteBarrierINS_7UnknownEEEj,
@@ -314,7 +314,7 @@ exports:
     __ZThn24_N9Inspector28InspectorScriptProfilerAgent18willEvaluateScriptEv, __ZThn24_N9Inspector28InspectorScriptProfilerAgentD0Ev,
     __ZThn24_N9Inspector28InspectorScriptProfilerAgentD1Ev, __ZThn24_NK9Inspector28InspectorScriptProfilerAgent18isAlreadyProfilingEv]
   objc-classes: [_JSContext, _JSManagedValue, _JSValue, _JSVirtualMachine]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@libobjc@/lib/libobjc.A.dylib']
   symbols: [_JSCheckScriptSyntax, _JSClassCreate, _JSClassRelease, _JSClassRetain,
     _JSContextCreateBacktrace, _JSContextGetGlobalContext, _JSContextGetGlobalObject,

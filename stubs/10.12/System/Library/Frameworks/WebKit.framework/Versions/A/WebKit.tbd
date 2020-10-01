@@ -1,5 +1,5 @@
 --- !tapi-tbd-v2
-archs: [i386, x86_64]
+archs: [i386, x86_64, aarch64]
 uuids: ['i386: DC43585C-6FC4-32EE-A946-16E718499BF5', 'x86_64: C28C5735-5B6B-3434-8054-FDBC57B4E2DE']
 platform: macosx
 install-name: '/System/Library/Frameworks/WebKit.framework/Versions/A/WebKit'
@@ -19,7 +19,7 @@ exports:
     _WKViewData, _WKViewDynamicSizeComputedFromMinimumDocumentSizeLayoutStrategy,
     _WKViewDynamicSizeComputedFromViewScaleLayoutStrategy, _WKViewFixedSizeLayoutStrategy,
     _WKViewLayoutStrategy, _WKViewViewSizeLayoutStrategy, _WKWindowVisibilityObserver]
-- archs: [x86_64]
+- archs: [x86_64, aarch64]
   symbols: [_WKActionCanShowMIMETypeKey, _WKActionFrameNameKey, _WKActionIsMainFrameKey,
     _WKActionModifierFlagsKey, _WKActionMouseButtonKey, _WKActionOriginalURLRequestKey,
     _WKActionOriginatingFrameURLKey, _WKActionURLRequestKey, _WKActionURLResponseKey,
@@ -56,7 +56,7 @@ exports:
     __WKWebsitePolicies]
   objc-ivars: [_WKDOMNode._impl, _WKDOMRange._impl, _WKDOMTextIterator._textIterator,
     _WKDOMTextIterator._upconvertedText, _WKWebInspectorProxyObjCAdapter._inspectorProxy]
-- archs: [i386, x86_64]
+- archs: [i386, x86_64, aarch64]
   re-exports: ['@WebKit@/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore',
     '@WebKit@/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy']
   symbols: [_DatabaseServiceInitializer, _NetworkServiceInitializer, _PluginServiceInitializer,
