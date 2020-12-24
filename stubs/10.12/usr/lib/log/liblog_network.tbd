@@ -1,0 +1,9 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: 55BE3905-24FA-3657-9844-5973C54EEE70' ]
+platform:        macosx
+install-name:    '/usr/lib/log/liblog_network.dylib'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _OSLogCopyFormattedString, ___networkVersionNumber, ___networkVersionString ]
+...

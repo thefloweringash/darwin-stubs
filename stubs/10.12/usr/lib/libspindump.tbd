@@ -1,0 +1,12 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: C7CEEB64-06F4-3ACA-AAC1-30ECA909501A' ]
+platform:        macosx
+install-name:    '/usr/lib/libspindump.dylib'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _SPCachePort, _SPReportCPUUsageResource, _SPReportCPUWakeupsResource, 
+                       _SPReportCorpseExcResource, _SPReportDiskWritesResource, _SPReportMemoryResource, 
+                       _SPReportStuckProcess, _SPReportStuckProcessWithCallback, 
+                       _SPReportUnstuckProcess, _dscsym_save_nuggets_for_current_caches ]
+...

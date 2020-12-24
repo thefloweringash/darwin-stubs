@@ -1,0 +1,15 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: D894FD6A-D81F-3330-B9A8-CA3259D97F1E' ]
+platform:        macosx
+install-name:    '/usr/lib/libipconfig.dylib'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _IPConfigurationServiceCopyInformation, _IPConfigurationServiceCreate, 
+                       _IPConfigurationServiceGetNotificationKey, _IPConfigurationServiceRefreshConfiguration, 
+                       _ipconfigVersionNumber, _ipconfigVersionString, _kIPConfigurationServiceOptionEnableDAD, 
+                       _kIPConfigurationServiceOptionIPv6Entity, _kIPConfigurationServiceOptionIPv6LinkLocalAddress, 
+                       _kIPConfigurationServiceOptionMTU, _kIPConfigurationServiceOptionPerformNUD, 
+                       _my_CFStringAppendBytesAsHex, _my_CFStringCreateWithIPAddress, 
+                       _my_CFStringCreateWithIPv6Address, _my_CFStringToCString ]
+...

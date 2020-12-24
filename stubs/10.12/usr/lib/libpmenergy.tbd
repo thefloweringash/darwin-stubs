@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs:           [ x86_64 ]
+uuids:           [ 'x86_64: C415ADDF-EDFF-3B1F-BC6A-75F01B3E0295' ]
+platform:        macosx
+install-name:    '/usr/lib/libpmenergy.dylib'
+exports:
+  - archs:           [ x86_64 ]
+    symbols:         [ _pm_energy_impact, _pm_energy_impact_internal, _pm_mach_time_to_ns, 
+                       _pm_task_add, _pm_task_subtract ]
+...

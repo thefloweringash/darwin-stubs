@@ -1,0 +1,33 @@
+--- !tapi-tbd-v2
+archs:           [ i386, x86_64 ]
+uuids:           [ 'i386: 96E88274-1541-3F5E-BC53-6065E4FCE8B6', 'x86_64: 3FAA0974-853D-37D9-AB6A-B6184DFABAB2' ]
+platform:        macosx
+install-name:    '/usr/lib/libtls.11.dylib'
+current-version: 12
+compatibility-version: 12
+exports:
+  - archs:           [ i386, x86_64 ]
+    symbols:         [ _tls_accept_fds, _tls_accept_socket, _tls_check_name, _tls_client, 
+                       _tls_close, _tls_config_clear_keys, _tls_config_error, _tls_config_free, 
+                       _tls_config_insecure_noverifycert, _tls_config_insecure_noverifyname, 
+                       _tls_config_insecure_noverifytime, _tls_config_new, _tls_config_parse_protocols, 
+                       _tls_config_prefer_ciphers_client, _tls_config_prefer_ciphers_server, 
+                       _tls_config_set_ca_file, _tls_config_set_ca_mem, _tls_config_set_ca_path, 
+                       _tls_config_set_cert_file, _tls_config_set_cert_mem, _tls_config_set_ciphers, 
+                       _tls_config_set_dheparams, _tls_config_set_ecdhecurve, _tls_config_set_error, 
+                       _tls_config_set_errorx, _tls_config_set_key_file, _tls_config_set_key_mem, 
+                       _tls_config_set_keypair_file, _tls_config_set_keypair_mem, 
+                       _tls_config_set_protocols, _tls_config_set_verify_depth, _tls_config_verify, 
+                       _tls_config_verify_client, _tls_config_verify_client_optional, 
+                       _tls_configure, _tls_configure_keypair, _tls_configure_server, 
+                       _tls_configure_ssl, _tls_configure_ssl_verify, _tls_conn_cipher, 
+                       _tls_conn_version, _tls_connect, _tls_connect_fds, _tls_connect_servername, 
+                       _tls_connect_socket, _tls_error, _tls_error_set, _tls_error_setx, 
+                       _tls_free, _tls_free_conninfo, _tls_get_conninfo, _tls_handshake, 
+                       _tls_handshake_client, _tls_handshake_server, _tls_host_port, 
+                       _tls_init, _tls_load_file, _tls_new, _tls_peer_cert_contains_name, 
+                       _tls_peer_cert_hash, _tls_peer_cert_issuer, _tls_peer_cert_notafter, 
+                       _tls_peer_cert_notbefore, _tls_peer_cert_provided, _tls_peer_cert_subject, 
+                       _tls_read, _tls_reset, _tls_server, _tls_server_conn, _tls_set_error, 
+                       _tls_set_errorx, _tls_ssl_error, _tls_write ]
+...
